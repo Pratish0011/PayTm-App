@@ -4,8 +4,12 @@
   "private": true,
   "exports": {
     "./button": "./src/button.tsx",
+    "./appbar": "./src/AppBar.tsx",
     "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
+    "./code": "./src/code.tsx",
+    "./select": "./src/Select.tsx",
+    "./center": "./src/Center.tsx",
+    "./textinput": "./src/TextInput.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
